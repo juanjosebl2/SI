@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    color: purple;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Payooo</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Pedrico</li>
+      <li>Paquito</li>
+      <li>Viva andalusia</li>
+      
+    </ul>
+  </div>
+
+  <div class="column content">
+    <h1>pablo weed weed</h1>
+    <p>que te paza a tii</p>
+    <p>claro que si guapii</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>noo veaa</p>
+</div>
+
+</body>
+</html>
